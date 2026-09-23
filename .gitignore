@@ -2,9 +2,10 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,c,sublimetext
 
 
-main
-c-programming-for-hardware.sublime-project
-c-programming-for-hardware.sublime-workspace
+./main
+./c-programming-for-hardware.sublime-project
+./c-programming-for-hardware.sublime-workspace
+./.clang-format
 
 ### C ###
 # Prerequisites
