@@ -2,11 +2,6 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,c,sublimetext
 
 
-./main
-./c-programming-for-hardware.sublime-project
-./c-programming-for-hardware.sublime-workspace
-./.clang-format
-
 ### C ###
 # Prerequisites
 *.d
@@ -127,4 +122,8 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,c,sublimetext
+# End of https://www.toptal.com/developers/gitignore/api/macos,c,sublimetextc-programming-for-hardware.sublime-project
+c-programming-for-hardware.sublime-project
+c-programming-for-hardware.sublime-workspace
+main
+.clang-format
