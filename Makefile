@@ -2,8 +2,11 @@
 # alias r="make run" alias b="make build" alias c="clear"
 # c && b && r
 
+# build:
+# 	gcc main.c -o main -std=c99 -Wall -Werror -pedantic
+
 build:
-	gcc main.c -o main -std=c99 -Wall -Werror -pedantic
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -g -gdwarf-2 main.c 
 
 debug:
 	gcc main.c -o main -g -std=c99 -Wall -Werror -pedantic
